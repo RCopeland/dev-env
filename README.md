@@ -8,9 +8,6 @@ to recreate the environment.
  - git review and commit step (set difftool to nvim?)
  - code actions not all that useful? 
  - use icons for errors instead of E / H / I etc.
- - typing accuracy
- - vim motions practice
- - Move below to README on the nvim-kickstart clone
  - running one test shows coverage for all files instead of just the changed files -> filterout the rest of the files? (jest config?)
 
 ## Tools
@@ -29,14 +26,12 @@ and fix any issues.
 
 ### iterm2
 
-Install with 
 ```
 brew install iterm2
 ```
 
 ### amethyst
 
-Install with
 ```
 brew install amethyst
 ```
@@ -47,14 +42,12 @@ Installed by default with macOS
 
 ### nvim
 
-Install with
 ```
 brew install nvim
 ```
 
 ### chrome
 
-Install with 
 ```
 brew install google-chrome
 ```
