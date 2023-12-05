@@ -46,10 +46,11 @@ Installed by default with macOS
 brew install nvim
 ```
 
-### chrome
+### browsers 
 
 ```
 brew install google-chrome
+brew install firefox
 ```
 Sign in to sync bookmarks and extensions
 
