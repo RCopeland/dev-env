@@ -4,13 +4,18 @@ These are the tools and configs I'm currently using. Follow the steps in each se
 to recreate the environment.
 
 ### Outstanding bugs / issues:
- - nvim-cmp purpose? it has missing config options?
- - git review and commit step (set difftool to nvim?)
- - code actions not all that useful? 
+ - symlink configs from repo to .config
+ - break up nvim config into files, prune
+ - set up LSP hotkeys
  - use icons for errors instead of E / H / I etc.
- - running one test shows coverage for all files instead of just the changed files -> filterout the rest of the files? (jest config?)
+ - running one test (nvim-test) shows coverage for all files instead of just the changed files -> filterout the rest of the files? (jest config?)
 
 ## Tools
+
+Clone this repo to a dev dir
+```
+mkdir ~/Dev && git clone https://github.com/RCopeland/dev-env
+```
 
 ### Homebrew
 
@@ -31,7 +36,7 @@ brew install iterm2
 ```
 Settings > Profiles > Import Profiles from JSON > Select config:
 ```
-dev-env/config/iterm2/iterm2-profiles.json
+~/Dev/dev-env/config/iterm2/iterm2-profiles.json
 ```
 Set copexrob as the default.
 
@@ -53,8 +58,10 @@ Installed by default with macOS
 
 ### nvim
 
+Install, then symlink the config
 ```
 brew install nvim
+ln -s ~/Dev/dev-env/config/nvim ~/.config
 ```
 
 ### browsers 
@@ -68,6 +75,7 @@ Sign in to sync bookmarks and extensions
 ### Misc 
 - globally installed packages
   - macos-trash
+  - ggrep
   - node
 
 ## Hotkeys
