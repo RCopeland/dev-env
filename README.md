@@ -29,6 +29,17 @@ and fix any issues.
 ```
 brew install iterm2
 ```
+Settings > Profiles > Import Profiles from JSON > Select config:
+```
+dev-env/config/iterm2/iterm2-profiles.json
+```
+Set copexrob as the default.
+
+### git
+Installed by default with macOS
+```
+cp ./config/git/.gitconfig ~/.gitconfig
+```
 
 ### amethyst
 
@@ -55,9 +66,9 @@ brew install firefox
 Sign in to sync bookmarks and extensions
 
 ### Misc 
-- git
 - globally installed packages
-- node
+  - macos-trash
+  - node
 
 ## Hotkeys
 
