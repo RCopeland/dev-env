@@ -4,11 +4,11 @@ These are the tools and configs I'm currently using. Follow the steps in each se
 to recreate the environment.
 
 ### Outstanding bugs / issues:
- - symlink configs from repo to .config
- - break up nvim config into files, prune
- - set up LSP hotkeys
  - use icons for errors instead of E / H / I etc.
  - running one test (nvim-test) shows coverage for all files instead of just the changed files -> filterout the rest of the files? (jest config?)
+ - project specific scripts
+ - finish tool config instructions / links
+ - update hotkeys / make cheatsheet
 
 ## Tools
 
