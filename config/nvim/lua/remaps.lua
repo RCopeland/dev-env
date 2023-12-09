@@ -8,11 +8,11 @@ vim.keymap.set('n', '<leader>f', '<C-^>', { desc = 'Go to last used buffer' })
 -- Popup term
 vim.keymap.set('n', '<leader>t', ':ToggleTerm direction=float<CR>', { desc = 'Popup terminal' })
 
--- run test under cursor
-vim.keymap.set('n', '<leader>r', ':TestNearest<CR>', { desc = 'Run the test nearest the cursor' })
-
 -- directory tree
 vim.keymap.set('n', '<leader>a', ':NERDTreeToggle<CR>', { desc = 'Open NERDTree' })
+
+-- run test under cursor
+vim.keymap.set('n', '<leader>r', ':TestNearest<CR>', { desc = 'Run the test nearest the cursor' })
 
 -- unknown?
 vim.keymap.set({ 'n', 'v' }, '<Space>', '<Nop>', { silent = true })
@@ -28,8 +28,6 @@ vim.keymap.set('n', '<leader>e', vim.diagnostic.open_float, { desc = 'Open float
 vim.keymap.set('n', '<leader>q', vim.diagnostic.setloclist, { desc = 'Open diagnostics list' })
 
 -- Telescope keymaps
---
--- See `:help telescope.builtin`
 vim.keymap.set('n', '<leader>?', require('telescope.builtin').oldfiles, { desc = '[?] Find recently opened files' })
 vim.keymap.set('n', '<leader><space>', require('telescope.builtin').buffers, { desc = '[ ] Find existing buffers' })
 vim.keymap.set('n', '<leader>/', function()
