@@ -74,6 +74,7 @@ Sign in to sync bookmarks and extensions
 
 ### Misc 
 - globally installed packages
+  - 1password (1Password CLI)
   - macos-trash
   - ggrep
   - node

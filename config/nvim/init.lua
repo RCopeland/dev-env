@@ -24,6 +24,7 @@ require('lazy').setup({
   require 'formatting',
   require 'linting',
   require 'testing',
+  --require 'ai-assist',
   require 'utility/colortheme',
   require 'utility/statusline',
   require 'utility/dressing',
